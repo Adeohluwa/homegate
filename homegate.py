@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 #import necessary modules
-import requests #, mysql
+import requests, sys, csv, MySQLdb
 from bs4 import BeautifulSoup
 
 #def everyDay():
