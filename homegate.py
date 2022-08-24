@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 
-#import modules
+#import necessary modules
 import requests #, mysql
 from bs4 import BeautifulSoup
 
 #def everyDay():
 #    pass
 
+# get rent and buy listings 
 def getPropertyListings():
    
     RENT = "https://www.homegate.ch/rent/real-estate/country-switzerland/matching-list"
