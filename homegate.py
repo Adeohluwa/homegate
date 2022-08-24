@@ -22,4 +22,10 @@ def getPropertyListings():
         print(each)
 
 
+
+# db = MySQLdb.connect("localhost","user", "pass","listingsdb")
+# cursor = db.cursor()
+
+
+
 getPropertyListings()
